@@ -24,6 +24,8 @@ function runGame(gameType) {
     //Math.random generates random numbers
     // +1 adds 1 to the final value to start at 1 instead of 0
 
+    document.getElementById("answer-box").value="";
+
     let num1 = Math.floor(Math.random() * 25)+1;
     console.log(num1)
     let num2 = Math.floor(Math.random() * 25)+1;
